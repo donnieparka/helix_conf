@@ -22,3 +22,7 @@ render = true
 [editor.inline-diagnostics]
 cursor-line = "error"
 
+[keys.normal]
+"A-c"= ":open ~/Documents/code"
+"A-t"= ":run-shell-command alacritty"
+"C-R"= ":config-reload"
