@@ -23,6 +23,9 @@ render = true
 cursor-line = "error"
 
 [keys.normal]
-"A-c"= ":open ~/Documents/code"
-"A-t"= ":run-shell-command alacritty"
+"A-c"= ":open ~/code"
+"A-h"= ":open ~"
+"A-t"= ":run-shell-command ghostty"
 "C-R"= ":config-reload"
+"C-s"= ":write"
+"C-S"= "save_selection"
